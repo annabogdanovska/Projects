@@ -1,0 +1,64 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-image: url("clouds-blue-sky-light-31912398.jpg");
+    /* background-repeat: repeat; */
+    background-size: cover;
+    height: 100vh;
+  }
+  
+nav {
+    display: inline;
+    position: relative;
+    left: 0%;
+}
+.nav-list  {
+    display:inline;
+}
+
+.inputText {
+    display:inline;
+    position: relative;
+    right: 0%;
+}
+
+.searchBtn {
+    display:inline;
+    position: relative;
+    right: 0%;
+}
+
+#myDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  #tableToPrint {
+    display: flex;
+    /* padding: 1em 2em; */
+    justify-content: center;
+    align-items: center;
+    border-spacing: 10px;
+    border-collapse: separate;
+     padding: 10px;
+    /* justify-content: space-evenly; */
+  }
+
+  .tableTdClass {
+    border: 1px solid red;
+    padding: 30px;
+  }
+  
+
+
+
+  
